@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>STUDENT</Machine>
+    <WindowsUser>just</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>16cbb2a8-ee39-45d5-a823-1a898d1c9dc8</PackageIdentityName>
+    <IntermediateOutputPath>F:\window8.1_example\Hub_Template\Hub_Template\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>32CD5744FBFD5B6F7C43EC4F021F55C53099C1286B8A69012B6C24C7B91CAA1A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>16cbb2a8-ee39-45d5-a823-1a898d1c9dc8_1.0.0.0_neutral__scs3de4092tee</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>16cbb2a8-ee39-45d5-a823-1a898d1c9dc8_scs3de4092tee!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>16cbb2a8-ee39-45d5-a823-1a898d1c9dc8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=just</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-29T08:44:24.539</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\Hub_Template.exe">
+      <PackagePath>Hub_Template.exe</PackagePath>
+      <Modified>2014-09-29T08:44:24.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\smallest_logo.png">
+      <PackagePath>Assets\smallest_logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-27T08:40:41.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\splash.png">
+      <PackagePath>Assets\splash.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-27T08:55:13.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\wide_logo.png">
+      <PackagePath>Assets\wide_logo.png</PackagePath>
+      <Modified>2014-09-27T08:40:31.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\bg.png">
+      <PackagePath>Images\Climbing\bg.png</PackagePath>
+      <Modified>2014-09-29T08:25:42.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\chinese_group.png">
+      <PackagePath>Images\Climbing\chinese_group.png</PackagePath>
+      <Modified>2014-09-24T06:48:01.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\chinese_group_header.png">
+      <PackagePath>Images\Climbing\chinese_group_header.png</PackagePath>
+      <Modified>2014-09-24T06:48:01.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\climbing_detail.png">
+      <PackagePath>Images\Climbing\climbing_detail.png</PackagePath>
+      <Modified>2014-09-25T11:07:53.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\huangshan.png">
+      <PackagePath>Images\Climbing\huangshan.png</PackagePath>
+      <Modified>2014-09-25T10:51:04.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\huangshanb.png">
+      <PackagePath>Images\Climbing\huangshanb.png</PackagePath>
+      <Modified>2014-09-29T08:29:07.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\lushan.png">
+      <PackagePath>Images\Climbing\lushan.png</PackagePath>
+      <Modified>2014-09-25T10:51:04.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\lushanb.png">
+      <PackagePath>Images\Climbing\lushanb.png</PackagePath>
+      <Modified>2014-09-29T08:28:39.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\putuoshan.png">
+      <PackagePath>Images\Climbing\putuoshan.png</PackagePath>
+      <Modified>2014-09-25T10:51:04.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\putuoshanb.png">
+      <PackagePath>Images\Climbing\putuoshanb.png</PackagePath>
+      <Modified>2014-09-28T12:28:32.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\qingchengshan.png">
+      <PackagePath>Images\Climbing\qingchengshan.png</PackagePath>
+      <Modified>2014-09-25T10:51:04.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\qingchengshanb.png">
+      <PackagePath>Images\Climbing\qingchengshanb.png</PackagePath>
+      <Modified>2014-09-29T08:29:51.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\taishan.png">
+      <PackagePath>Images\Climbing\taishan.png</PackagePath>
+      <Modified>2014-09-25T09:42:23.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\taishanb.png">
+      <PackagePath>Images\Climbing\taishanb.png</PackagePath>
+      <Modified>2014-09-29T08:36:13.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\yuntaishan.png">
+      <PackagePath>Images\Climbing\yuntaishan.png</PackagePath>
+      <Modified>2014-09-25T10:51:04.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\yuntaishanb.png">
+      <PackagePath>Images\Climbing\yuntaishanb.png</PackagePath>
+      <Modified>2014-09-28T11:55:31.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\bg.png">
+      <PackagePath>Images\Driving\bg.png</PackagePath>
+      <Modified>2014-09-29T08:25:47.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\driving_detail.png">
+      <PackagePath>Images\Driving\driving_detail.png</PackagePath>
+      <Modified>2014-09-26T11:34:13.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\gannan.png">
+      <PackagePath>Images\Driving\gannan.png</PackagePath>
+      <Modified>2014-09-26T05:31:56.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\gannanb.png">
+      <PackagePath>Images\Driving\gannanb.png</PackagePath>
+      <Modified>2014-09-29T08:29:40.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\genasi.png">
+      <PackagePath>Images\Driving\genasi.png</PackagePath>
+      <Modified>2014-09-26T05:31:56.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\genasib.png">
+      <PackagePath>Images\Driving\genasib.png</PackagePath>
+      <Modified>2014-09-28T11:57:23.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\german_group.png">
+      <PackagePath>Images\Driving\german_group.png</PackagePath>
+      <Modified>2014-09-26T07:22:21.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\german_group_detail.png">
+      <PackagePath>Images\Driving\german_group_detail.png</PackagePath>
+      <Modified>2014-09-26T07:22:21.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\german_group_header.png">
+      <PackagePath>Images\Driving\german_group_header.png</PackagePath>
+      <Modified>2014-09-26T07:22:21.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\hulunbeier.png">
+      <PackagePath>Images\Driving\hulunbeier.png</PackagePath>
+      <Modified>2014-09-26T05:31:56.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\hulunbeierb.png">
+      <PackagePath>Images\Driving\hulunbeierb.png</PackagePath>
+      <Modified>2014-09-28T12:37:16.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\kangding.png">
+      <PackagePath>Images\Driving\kangding.png</PackagePath>
+      <Modified>2014-09-26T05:31:56.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\kangdingb.png">
+      <PackagePath>Images\Driving\kangdingb.png</PackagePath>
+      <Modified>2014-09-29T08:36:31.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\luguhu.png">
+      <PackagePath>Images\Driving\luguhu.png</PackagePath>
+      <Modified>2014-09-26T05:31:56.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\luguhub.png">
+      <PackagePath>Images\Driving\luguhub.png</PackagePath>
+      <Modified>2014-09-28T11:56:11.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\spanish.png">
+      <PackagePath>Images\Driving\spanish.png</PackagePath>
+      <Modified>2014-09-26T05:31:56.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\spanishb.png">
+      <PackagePath>Images\Driving\spanishb.png</PackagePath>
+      <Modified>2014-09-28T11:56:00.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\bg.png">
+      <PackagePath>Images\hiking\bg.png</PackagePath>
+      <Modified>2014-09-29T08:25:50.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\hiking_detail.png">
+      <PackagePath>Images\hiking\hiking_detail.png</PackagePath>
+      <Modified>2014-09-27T01:40:18.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\india.png">
+      <PackagePath>Images\hiking\india.png</PackagePath>
+      <Modified>2014-09-27T00:36:27.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\indiab.png">
+      <PackagePath>Images\hiking\indiab.png</PackagePath>
+      <Modified>2014-09-28T11:49:46.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\jingxigudao.png">
+      <PackagePath>Images\hiking\jingxigudao.png</PackagePath>
+      <Modified>2014-09-27T00:36:27.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\jingxigudaob.png">
+      <PackagePath>Images\hiking\jingxigudaob.png</PackagePath>
+      <Modified>2014-09-29T08:29:18.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\motuo.png">
+      <PackagePath>Images\hiking\motuo.png</PackagePath>
+      <Modified>2014-09-27T00:36:27.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\niboer.png">
+      <PackagePath>Images\hiking\niboer.png</PackagePath>
+      <Modified>2014-09-27T00:36:27.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\qinghaihu.png">
+      <PackagePath>Images\hiking\qinghaihu.png</PackagePath>
+      <Modified>2014-09-27T00:36:27.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\qinghaihub.png">
+      <PackagePath>Images\hiking\qinghaihub.png</PackagePath>
+      <Modified>2014-09-28T12:26:55.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\yubeng.png">
+      <PackagePath>Images\hiking\yubeng.png</PackagePath>
+      <Modified>2014-09-27T00:36:27.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\yubengb.png">
+      <PackagePath>Images\hiking\yubengb.png</PackagePath>
+      <Modified>2014-09-28T12:28:08.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\bg.png">
+      <PackagePath>Images\oldtown\bg.png</PackagePath>
+      <Modified>2014-09-29T08:25:52.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\oldtown_detail.png">
+      <PackagePath>Images\oldtown\oldtown_detail.png</PackagePath>
+      <Modified>2014-09-29T08:11:08.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\pingyao.png">
+      <PackagePath>Images\oldtown\pingyao.png</PackagePath>
+      <Modified>2014-09-27T02:43:25.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\pingyaob.png">
+      <PackagePath>Images\oldtown\pingyaob.png</PackagePath>
+      <Modified>2014-09-29T08:29:00.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\wuzhen.png">
+      <PackagePath>Images\oldtown\wuzhen.png</PackagePath>
+      <Modified>2014-09-27T02:43:25.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\wuzhenb.png">
+      <PackagePath>Images\oldtown\wuzhenb.png</PackagePath>
+      <Modified>2014-09-29T08:29:27.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\xitang.png">
+      <PackagePath>Images\oldtown\xitang.png</PackagePath>
+      <Modified>2014-09-27T02:43:25.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\xitangb.png">
+      <PackagePath>Images\oldtown\xitangb.png</PackagePath>
+      <Modified>2014-09-29T08:30:03.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\yangsu.png">
+      <PackagePath>Images\oldtown\yangsu.png</PackagePath>
+      <Modified>2014-09-27T02:43:25.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\yangsub.png">
+      <PackagePath>Images\oldtown\yangsub.png</PackagePath>
+      <Modified>2014-09-28T11:56:25.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\zhouzhuang.png">
+      <PackagePath>Images\oldtown\zhouzhuang.png</PackagePath>
+      <Modified>2014-09-27T02:43:25.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\zhouzhuangb.png">
+      <PackagePath>Images\oldtown\zhouzhuangb.png</PackagePath>
+      <Modified>2014-09-28T11:55:21.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\bg.png">
+      <PackagePath>Images\photography\bg.png</PackagePath>
+      <Modified>2014-09-29T08:25:55.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\daocheng.png">
+      <PackagePath>Images\photography\daocheng.png</PackagePath>
+      <Modified>2014-09-25T12:16:06.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\daochengb.png">
+      <PackagePath>Images\photography\daochengb.png</PackagePath>
+      <Modified>2014-09-28T12:38:02.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\french_group.png">
+      <PackagePath>Images\photography\french_group.png</PackagePath>
+      <Modified>2014-09-24T06:48:01.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\french_group_detail.png">
+      <PackagePath>Images\photography\french_group_detail.png</PackagePath>
+      <Modified>2014-09-24T06:48:01.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\french_group_header.png">
+      <PackagePath>Images\photography\french_group_header.png</PackagePath>
+      <Modified>2014-09-24T06:48:01.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Hero.png">
+      <PackagePath>Images\Hero.png</PackagePath>
+      <Modified>2014-09-24T06:48:01.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\indian_group.png">
+      <PackagePath>Images\hiking\indian_group.png</PackagePath>
+      <Modified>2014-09-24T06:48:02.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\indian_group_header.png">
+      <PackagePath>Images\hiking\indian_group_header.png</PackagePath>
+      <Modified>2014-09-24T06:48:02.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\italian_group.png">
+      <PackagePath>Images\oldtown\italian_group.png</PackagePath>
+      <Modified>2014-09-24T06:48:02.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\italian_group_detail.png">
+      <PackagePath>Images\oldtown\italian_group_detail.png</PackagePath>
+      <Modified>2014-09-24T06:48:02.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\italian_group_header.png">
+      <PackagePath>Images\oldtown\italian_group_header.png</PackagePath>
+      <Modified>2014-09-24T06:48:02.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\jiuzhaigou.png">
+      <PackagePath>Images\photography\jiuzhaigou.png</PackagePath>
+      <Modified>2014-09-25T12:16:06.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\jiuzhaigoub.png">
+      <PackagePath>Images\photography\jiuzhaigoub.png</PackagePath>
+      <Modified>2014-09-29T08:28:25.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\photography_detail.png">
+      <PackagePath>Images\photography\photography_detail.png</PackagePath>
+      <Modified>2014-09-26T11:42:47.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\qinghai.png">
+      <PackagePath>Images\photography\qinghai.png</PackagePath>
+      <Modified>2014-09-25T12:16:06.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\qinghaib.png">
+      <PackagePath>Images\photography\qinghaib.png</PackagePath>
+      <Modified>2014-09-29T08:30:34.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\xianggelila.png">
+      <PackagePath>Images\photography\xianggelila.png</PackagePath>
+      <Modified>2014-09-25T12:16:06.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\xianggelilab.png">
+      <PackagePath>Images\photography\xianggelilab.png</PackagePath>
+      <Modified>2014-09-28T12:37:47.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\xinjiang.png">
+      <PackagePath>Images\photography\xinjiang.png</PackagePath>
+      <Modified>2014-09-25T12:16:06.181</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\xinjiangb.png">
+      <PackagePath>Images\photography\xinjiangb.png</PackagePath>
+      <Modified>2014-09-28T12:37:54.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\xizang.png">
+      <PackagePath>Images\photography\xizang.png</PackagePath>
+      <Modified>2014-09-25T12:16:06.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\xizangb.png">
+      <PackagePath>Images\photography\xizangb.png</PackagePath>
+      <Modified>2014-09-29T08:36:02.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\LargeLogo.scale-100.png">
+      <PackagePath>Assets\LargeLogo.scale-100.png</PackagePath>
+      <Modified>2014-09-24T06:19:28.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2014-09-24T06:19:28.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-27T08:40:44.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2014-09-24T06:19:37.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2014-09-24T06:19:38.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-24T06:19:38.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Bread.jpg">
+      <PackagePath>Images\Bread.jpg</PackagePath>
+      <Modified>2014-09-24T06:48:01.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Hero.jpg">
+      <PackagePath>Images\Hero.jpg</PackagePath>
+      <Modified>2014-09-27T07:36:45.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Grain.jpg">
+      <PackagePath>Images\Grain.jpg</PackagePath>
+      <Modified>2014-09-24T06:48:01.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Peppers.jpg">
+      <PackagePath>Images\Peppers.jpg</PackagePath>
+      <Modified>2014-09-24T06:48:02.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Tiles\Chinese_6_310_C.jpg">
+      <PackagePath>Images\Tiles\Chinese_6_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T06:48:02.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Tiles\French_2_310_C.jpg">
+      <PackagePath>Images\Tiles\French_2_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T06:48:02.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Tiles\German_4_310_C.jpg">
+      <PackagePath>Images\Tiles\German_4_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T06:48:02.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Tiles\Italian_4_310_C.jpg">
+      <PackagePath>Images\Tiles\Italian_4_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T06:48:02.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Tiles\Italian_5_310_C.jpg">
+      <PackagePath>Images\Tiles\Italian_5_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T06:48:02.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Vegetables.jpg">
+      <PackagePath>Images\Vegetables.jpg</PackagePath>
+      <Modified>2014-09-24T06:48:02.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2014-09-29T08:47:08.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-09-29T08:44:24.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+      <Modified>2014-09-29T08:44:24.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\ItemsDetailPage.xbf">
+      <PackagePath>ItemsDetailPage.xbf</PackagePath>
+      <Modified>2014-09-29T08:44:24.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\SearchResultsPage.xbf">
+      <PackagePath>SearchResultsPage.xbf</PackagePath>
+      <Modified>2014-09-29T08:44:24.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+      <Modified>2014-09-29T08:44:24.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+      <Modified>2014-09-29T08:44:24.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\Hub_Template.xr.xml">
+      <PackagePath>Hub_Template.xr.xml</PackagePath>
+      <Modified>2014-09-29T07:41:14.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-09-29T08:44:24.437</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

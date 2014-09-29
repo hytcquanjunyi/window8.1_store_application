@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{93F0F178-CC2B-42B0-8095-72308653FD8F}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hub_Template</RootNamespace>
+    <AssemblyName>Hub_Template</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>Hub_Template_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="HubPage.xaml.cs">
+      <DependentUpon>HubPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemsDetailPage.xaml.cs">
+      <DependentUpon>ItemsDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResultsPage.xaml.cs">
+      <DependentUpon>SearchResultsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SectionPage.xaml.cs">
+      <DependentUpon>SectionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemPage.xaml.cs">
+      <DependentUpon>ItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataModel\SampleDataSource.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="Common\NavigationHelper.cs" />
+    <Compile Include="Common\RelayCommand.cs" />
+    <Compile Include="Common\ObservableDictionary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Images\Driving\Thumbs.db" />
+    <None Include="Images\Thumbs.db" />
+    <None Include="Common\ReadMe.txt" />
+    <None Include="Hub_Template_TemporaryKey.pfx" />
+    <PRIResource Include="Strings\en-US\Resources.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+    <Content Include="Assets\smallest_logo.png" />
+    <Content Include="Assets\splash.png" />
+    <Content Include="Assets\wide_logo.png" />
+    <Content Include="Images\Bread.jpg" />
+    <Content Include="Images\Climbing\bg.png" />
+    <Content Include="Images\Climbing\chinese_group.png" />
+    <Content Include="Images\Climbing\chinese_group_header.png" />
+    <Content Include="Images\Climbing\climbing_detail.png" />
+    <Content Include="Images\Climbing\huangshan.png" />
+    <Content Include="Images\Climbing\huangshanb.png" />
+    <Content Include="Images\Climbing\lushan.png" />
+    <Content Include="Images\Climbing\lushanb.png" />
+    <Content Include="Images\Climbing\putuoshan.png" />
+    <Content Include="Images\Climbing\putuoshanb.png" />
+    <Content Include="Images\Climbing\qingchengshan.png" />
+    <Content Include="Images\Climbing\qingchengshanb.png" />
+    <Content Include="Images\Climbing\taishan.png" />
+    <Content Include="Images\Climbing\taishanb.png" />
+    <Content Include="Images\Climbing\yuntaishan.png" />
+    <Content Include="Images\Climbing\yuntaishanb.png" />
+    <Content Include="Images\Driving\bg.png" />
+    <Content Include="Images\Driving\driving_detail.png" />
+    <Content Include="Images\Driving\gannan.png" />
+    <Content Include="Images\Driving\gannanb.png" />
+    <Content Include="Images\Driving\genasi.png" />
+    <Content Include="Images\Driving\genasib.png" />
+    <Content Include="Images\Driving\german_group.png" />
+    <Content Include="Images\Driving\german_group_detail.png" />
+    <Content Include="Images\Driving\german_group_header.png" />
+    <Content Include="Images\Driving\hulunbeier.png" />
+    <Content Include="Images\Driving\hulunbeierb.png" />
+    <Content Include="Images\Driving\kangding.png" />
+    <Content Include="Images\Driving\kangdingb.png" />
+    <Content Include="Images\Driving\luguhu.png" />
+    <Content Include="Images\Driving\luguhub.png" />
+    <Content Include="Images\Driving\spanish.png" />
+    <Content Include="Images\Driving\spanishb.png" />
+    <Content Include="Images\Hero.jpg" />
+    <Content Include="Images\hiking\bg.png" />
+    <Content Include="Images\hiking\hiking_detail.png" />
+    <Content Include="Images\hiking\india.png" />
+    <Content Include="Images\hiking\indiab.png" />
+    <Content Include="Images\hiking\jingxigudao.png" />
+    <Content Include="Images\hiking\jingxigudaob.png" />
+    <Content Include="Images\hiking\motuo.png" />
+    <Content Include="Images\hiking\niboer.png" />
+    <Content Include="Images\hiking\qinghaihu.png" />
+    <Content Include="Images\hiking\qinghaihub.png" />
+    <Content Include="Images\hiking\yubeng.png" />
+    <Content Include="Images\hiking\yubengb.png" />
+    <Content Include="Images\oldtown\bg.png" />
+    <Content Include="Images\oldtown\oldtown_detail.png" />
+    <Content Include="Images\oldtown\pingyao.png" />
+    <Content Include="Images\oldtown\pingyaob.png" />
+    <Content Include="Images\oldtown\wuzhen.png" />
+    <Content Include="Images\oldtown\wuzhenb.png" />
+    <Content Include="Images\oldtown\xitang.png" />
+    <Content Include="Images\oldtown\xitangb.png" />
+    <Content Include="Images\oldtown\yangsu.png" />
+    <Content Include="Images\oldtown\yangsub.png" />
+    <Content Include="Images\oldtown\zhouzhuang.png" />
+    <Content Include="Images\oldtown\zhouzhuangb.png" />
+    <Content Include="Images\photography\bg.png" />
+    <Content Include="Images\photography\daocheng.png" />
+    <Content Include="Images\photography\daochengb.png" />
+    <Content Include="Images\photography\french_group.png" />
+    <Content Include="Images\photography\french_group_detail.png" />
+    <Content Include="Images\photography\french_group_header.png" />
+    <Content Include="Images\Grain.jpg" />
+    <Content Include="Images\Hero.png" />
+    <Content Include="Images\hiking\indian_group.png" />
+    <Content Include="Images\hiking\indian_group_header.png" />
+    <Content Include="Images\oldtown\italian_group.png" />
+    <Content Include="Images\oldtown\italian_group_detail.png" />
+    <Content Include="Images\oldtown\italian_group_header.png" />
+    <Content Include="Images\Peppers.jpg" />
+    <Content Include="Images\photography\jiuzhaigou.png" />
+    <Content Include="Images\photography\jiuzhaigoub.png" />
+    <Content Include="Images\photography\photography_detail.png" />
+    <Content Include="Images\photography\qinghai.png" />
+    <Content Include="Images\photography\qinghaib.png" />
+    <Content Include="Images\photography\xianggelila.png" />
+    <Content Include="Images\photography\xianggelilab.png" />
+    <Content Include="Images\photography\xinjiang.png" />
+    <Content Include="Images\photography\xinjiangb.png" />
+    <Content Include="Images\photography\xizang.png" />
+    <Content Include="Images\photography\xizangb.png" />
+    <Content Include="Images\Tiles\Chinese_6_310_C.jpg" />
+    <Content Include="Images\Tiles\French_2_310_C.jpg" />
+    <Content Include="Images\Tiles\German_4_310_C.jpg" />
+    <Content Include="Images\Tiles\Italian_4_310_C.jpg" />
+    <Content Include="Images\Tiles\Italian_5_310_C.jpg" />
+    <Content Include="Images\Vegetables.jpg" />
+    <Content Include="Assets\LargeLogo.scale-100.png" />
+    <Content Include="Assets\WideLogo.scale-100.png" />
+    <Content Include="DataModel\SampleData.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\LightGray.png" />
+    <Content Include="Assets\MediumGray.png" />
+    <Content Include="Assets\DarkGray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="HubPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ItemsDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SearchResultsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SectionPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ItemPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

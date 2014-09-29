@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>STUDENT</Machine>
+    <WindowsUser>just</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>16cbb2a8-ee39-45d5-a823-1a898d1c9dc8</PackageIdentityName>
+    <IntermediateOutputPath>F:\window8.1_example\Hub_Template\Hub_Template\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\Hub_Template.exe">
+      <PackagePath>Hub_Template.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\smallest_logo.png">
+      <PackagePath>Assets\smallest_logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\splash.png">
+      <PackagePath>Assets\splash.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\wide_logo.png">
+      <PackagePath>Assets\wide_logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\bg.png">
+      <PackagePath>Images\Climbing\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\chinese_group.png">
+      <PackagePath>Images\Climbing\chinese_group.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\chinese_group_header.png">
+      <PackagePath>Images\Climbing\chinese_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\climbing_detail.png">
+      <PackagePath>Images\Climbing\climbing_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\huangshan.png">
+      <PackagePath>Images\Climbing\huangshan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\huangshanb.png">
+      <PackagePath>Images\Climbing\huangshanb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\lushan.png">
+      <PackagePath>Images\Climbing\lushan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\lushanb.png">
+      <PackagePath>Images\Climbing\lushanb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\putuoshan.png">
+      <PackagePath>Images\Climbing\putuoshan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\putuoshanb.png">
+      <PackagePath>Images\Climbing\putuoshanb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\qingchengshan.png">
+      <PackagePath>Images\Climbing\qingchengshan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\qingchengshanb.png">
+      <PackagePath>Images\Climbing\qingchengshanb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\taishan.png">
+      <PackagePath>Images\Climbing\taishan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\taishanb.png">
+      <PackagePath>Images\Climbing\taishanb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\yuntaishan.png">
+      <PackagePath>Images\Climbing\yuntaishan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Climbing\yuntaishanb.png">
+      <PackagePath>Images\Climbing\yuntaishanb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\bg.png">
+      <PackagePath>Images\Driving\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\driving_detail.png">
+      <PackagePath>Images\Driving\driving_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\gannan.png">
+      <PackagePath>Images\Driving\gannan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\gannanb.png">
+      <PackagePath>Images\Driving\gannanb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\genasi.png">
+      <PackagePath>Images\Driving\genasi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\genasib.png">
+      <PackagePath>Images\Driving\genasib.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\german_group.png">
+      <PackagePath>Images\Driving\german_group.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\german_group_detail.png">
+      <PackagePath>Images\Driving\german_group_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\german_group_header.png">
+      <PackagePath>Images\Driving\german_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\hulunbeier.png">
+      <PackagePath>Images\Driving\hulunbeier.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\hulunbeierb.png">
+      <PackagePath>Images\Driving\hulunbeierb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\kangding.png">
+      <PackagePath>Images\Driving\kangding.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\kangdingb.png">
+      <PackagePath>Images\Driving\kangdingb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\luguhu.png">
+      <PackagePath>Images\Driving\luguhu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\luguhub.png">
+      <PackagePath>Images\Driving\luguhub.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\spanish.png">
+      <PackagePath>Images\Driving\spanish.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Driving\spanishb.png">
+      <PackagePath>Images\Driving\spanishb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\bg.png">
+      <PackagePath>Images\hiking\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\hiking_detail.png">
+      <PackagePath>Images\hiking\hiking_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\india.png">
+      <PackagePath>Images\hiking\india.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\indiab.png">
+      <PackagePath>Images\hiking\indiab.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\jingxigudao.png">
+      <PackagePath>Images\hiking\jingxigudao.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\jingxigudaob.png">
+      <PackagePath>Images\hiking\jingxigudaob.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\motuo.png">
+      <PackagePath>Images\hiking\motuo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\niboer.png">
+      <PackagePath>Images\hiking\niboer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\qinghaihu.png">
+      <PackagePath>Images\hiking\qinghaihu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\qinghaihub.png">
+      <PackagePath>Images\hiking\qinghaihub.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\yubeng.png">
+      <PackagePath>Images\hiking\yubeng.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\yubengb.png">
+      <PackagePath>Images\hiking\yubengb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\bg.png">
+      <PackagePath>Images\oldtown\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\oldtown_detail.png">
+      <PackagePath>Images\oldtown\oldtown_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\pingyao.png">
+      <PackagePath>Images\oldtown\pingyao.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\pingyaob.png">
+      <PackagePath>Images\oldtown\pingyaob.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\wuzhen.png">
+      <PackagePath>Images\oldtown\wuzhen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\wuzhenb.png">
+      <PackagePath>Images\oldtown\wuzhenb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\xitang.png">
+      <PackagePath>Images\oldtown\xitang.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\xitangb.png">
+      <PackagePath>Images\oldtown\xitangb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\yangsu.png">
+      <PackagePath>Images\oldtown\yangsu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\yangsub.png">
+      <PackagePath>Images\oldtown\yangsub.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\zhouzhuang.png">
+      <PackagePath>Images\oldtown\zhouzhuang.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\zhouzhuangb.png">
+      <PackagePath>Images\oldtown\zhouzhuangb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\bg.png">
+      <PackagePath>Images\photography\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\daocheng.png">
+      <PackagePath>Images\photography\daocheng.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\daochengb.png">
+      <PackagePath>Images\photography\daochengb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\french_group.png">
+      <PackagePath>Images\photography\french_group.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\french_group_detail.png">
+      <PackagePath>Images\photography\french_group_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\french_group_header.png">
+      <PackagePath>Images\photography\french_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Hero.png">
+      <PackagePath>Images\Hero.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\indian_group.png">
+      <PackagePath>Images\hiking\indian_group.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\hiking\indian_group_header.png">
+      <PackagePath>Images\hiking\indian_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\italian_group.png">
+      <PackagePath>Images\oldtown\italian_group.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\italian_group_detail.png">
+      <PackagePath>Images\oldtown\italian_group_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\oldtown\italian_group_header.png">
+      <PackagePath>Images\oldtown\italian_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\jiuzhaigou.png">
+      <PackagePath>Images\photography\jiuzhaigou.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\jiuzhaigoub.png">
+      <PackagePath>Images\photography\jiuzhaigoub.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\photography_detail.png">
+      <PackagePath>Images\photography\photography_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\qinghai.png">
+      <PackagePath>Images\photography\qinghai.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\qinghaib.png">
+      <PackagePath>Images\photography\qinghaib.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\xianggelila.png">
+      <PackagePath>Images\photography\xianggelila.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\xianggelilab.png">
+      <PackagePath>Images\photography\xianggelilab.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\xinjiang.png">
+      <PackagePath>Images\photography\xinjiang.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\xinjiangb.png">
+      <PackagePath>Images\photography\xinjiangb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\xizang.png">
+      <PackagePath>Images\photography\xizang.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\photography\xizangb.png">
+      <PackagePath>Images\photography\xizangb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\LargeLogo.scale-100.png">
+      <PackagePath>Assets\LargeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Bread.jpg">
+      <PackagePath>Images\Bread.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Hero.jpg">
+      <PackagePath>Images\Hero.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Grain.jpg">
+      <PackagePath>Images\Grain.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Peppers.jpg">
+      <PackagePath>Images\Peppers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Tiles\Chinese_6_310_C.jpg">
+      <PackagePath>Images\Tiles\Chinese_6_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Tiles\French_2_310_C.jpg">
+      <PackagePath>Images\Tiles\French_2_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Tiles\German_4_310_C.jpg">
+      <PackagePath>Images\Tiles\German_4_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Tiles\Italian_4_310_C.jpg">
+      <PackagePath>Images\Tiles\Italian_4_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Tiles\Italian_5_310_C.jpg">
+      <PackagePath>Images\Tiles\Italian_5_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\Images\Vegetables.jpg">
+      <PackagePath>Images\Vegetables.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\ItemsDetailPage.xbf">
+      <PackagePath>ItemsDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\SearchResultsPage.xbf">
+      <PackagePath>SearchResultsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\Hub_Template.xr.xml">
+      <PackagePath>Hub_Template.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\window8.1_example\Hub_Template\Hub_Template\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
